@@ -1,0 +1,220 @@
+{
+  "schema_version": 1,
+  "count": 12,
+  "roles": [
+    {
+      "slug": "domain-science",
+      "name": "Domain Science",
+      "chinese": "领域机制",
+      "category": "domain",
+      "category_label": "领域",
+      "focus": "连接研究对象、机制假设与专业适用边界",
+      "path": "references/roles/domain-science.md",
+      "aliases": [
+        "Domain Science",
+        "领域机制"
+      ]
+    },
+    {
+      "slug": "evidence-review",
+      "name": "Evidence Review",
+      "chinese": "文献与证据",
+      "category": "evidence",
+      "category_label": "证据",
+      "focus": "检查已有研究是否真正支持当前主张",
+      "path": "references/roles/evidence-review.md",
+      "aliases": [
+        "Evidence Review",
+        "文献与证据"
+      ]
+    },
+    {
+      "slug": "experimental-design",
+      "name": "Experimental Design",
+      "chinese": "实验设计",
+      "category": "design",
+      "category_label": "设计",
+      "focus": "让实验区分假设，同时符合资源和执行条件",
+      "path": "references/roles/experimental-design.md",
+      "aliases": [
+        "Experimental Design",
+        "实验设计"
+      ]
+    },
+    {
+      "slug": "causal-inference",
+      "name": "Causal Inference",
+      "chinese": "因果推断",
+      "category": "design",
+      "category_label": "设计",
+      "focus": "区分预测、干预与反事实，检查目标量能否识别",
+      "path": "references/roles/causal-inference.md",
+      "aliases": [
+        "Causal Inference",
+        "因果推断"
+      ]
+    },
+    {
+      "slug": "statistics",
+      "name": "Statistics",
+      "chinese": "统计与不确定性",
+      "category": "data",
+      "category_label": "数据与分析",
+      "focus": "评价估计目标、效应、不确定性与分析适用性",
+      "path": "references/roles/statistics.md",
+      "aliases": [
+        "Statistics",
+        "统计与不确定性"
+      ]
+    },
+    {
+      "slug": "data-quality",
+      "name": "Data Quality",
+      "chinese": "数据质量",
+      "category": "data",
+      "category_label": "数据与分析",
+      "focus": "检查测量、来源、标签与样本进入分析的过程",
+      "path": "references/roles/data-quality.md",
+      "aliases": [
+        "Data Quality",
+        "数据质量"
+      ]
+    },
+    {
+      "slug": "computational-modeling",
+      "name": "Computational Modeling",
+      "chinese": "计算与模型",
+      "category": "data",
+      "category_label": "数据与分析",
+      "focus": "检验模型是否解决目标任务，并排除不公平比较",
+      "path": "references/roles/computational-modeling.md",
+      "aliases": [
+        "Computational Modeling",
+        "计算与模型"
+      ]
+    },
+    {
+      "slug": "engineering-feasibility",
+      "name": "Engineering Feasibility",
+      "chinese": "工程可行性",
+      "category": "translation",
+      "category_label": "实施与转化",
+      "focus": "将研究性能与系统约束、制造或部署条件连接",
+      "path": "references/roles/engineering-feasibility.md",
+      "aliases": [
+        "Engineering Feasibility",
+        "工程可行性"
+      ]
+    },
+    {
+      "slug": "reproducibility",
+      "name": "Reproducibility",
+      "chinese": "可重复与复核",
+      "category": "evidence",
+      "category_label": "证据",
+      "focus": "使结果能够被重新计算、独立重复和检查",
+      "path": "references/roles/reproducibility.md",
+      "aliases": [
+        "Reproducibility",
+        "可重复与复核"
+      ]
+    },
+    {
+      "slug": "ethics-governance",
+      "name": "Ethics & Governance",
+      "chinese": "伦理与治理",
+      "category": "governance",
+      "category_label": "治理",
+      "focus": "检查参与者、数据和社会影响中的责任边界",
+      "path": "references/roles/ethics-governance.md",
+      "aliases": [
+        "Ethics & Governance",
+        "伦理与治理"
+      ]
+    },
+    {
+      "slug": "translation-impact",
+      "name": "Translation & Impact",
+      "chinese": "应用与转化",
+      "category": "translation",
+      "category_label": "实施与转化",
+      "focus": "评价研究发现如何进入实际使用和获益链条",
+      "path": "references/roles/translation-impact.md",
+      "aliases": [
+        "Translation & Impact",
+        "应用与转化"
+      ]
+    },
+    {
+      "slug": "research-strategy",
+      "name": "Research Strategy",
+      "chinese": "研究策略",
+      "category": "translation",
+      "category_label": "实施与转化",
+      "focus": "按信息价值、可执行性与机会成本安排下一步",
+      "path": "references/roles/research-strategy.md",
+      "aliases": [
+        "Research Strategy",
+        "研究策略"
+      ]
+    }
+  ],
+  "presets": {
+    "default": [
+      "domain-science",
+      "evidence-review",
+      "experimental-design",
+      "causal-inference",
+      "statistics",
+      "reproducibility"
+    ],
+    "quick": [
+      "domain-science",
+      "experimental-design",
+      "statistics",
+      "reproducibility"
+    ],
+    "biomed": [
+      "domain-science",
+      "evidence-review",
+      "experimental-design",
+      "causal-inference",
+      "statistics",
+      "data-quality",
+      "ethics-governance",
+      "translation-impact"
+    ],
+    "ai": [
+      "domain-science",
+      "data-quality",
+      "computational-modeling",
+      "statistics",
+      "experimental-design",
+      "engineering-feasibility",
+      "reproducibility",
+      "ethics-governance"
+    ],
+    "engineering": [
+      "domain-science",
+      "engineering-feasibility",
+      "experimental-design",
+      "computational-modeling",
+      "statistics",
+      "reproducibility"
+    ],
+    "deep": [
+      "domain-science",
+      "evidence-review",
+      "experimental-design",
+      "causal-inference",
+      "statistics",
+      "data-quality",
+      "computational-modeling",
+      "engineering-feasibility",
+      "reproducibility",
+      "ethics-governance",
+      "translation-impact",
+      "research-strategy"
+    ]
+  }
+}
