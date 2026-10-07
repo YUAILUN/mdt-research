@@ -1,0 +1,4 @@
+interface:
+  display_name: "MDT Research"
+  short_description: "跨学科科研评议：检验证据、实验设计与关键分歧，形成可执行的验证方案"
+  default_prompt: "使用 $mdt-research 对这个科研问题开展跨学科评议，给出证据缺口、关键分歧和优先验证计划。"
