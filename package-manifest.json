@@ -1,0 +1,27 @@
+{
+  "skill": "mdt-research",
+  "version": "1.0.0",
+  "built_date": "2026-10-07",
+  "skill_files_sha256": {
+    "LICENSE": "90a9822450f74ad6713ce75839416283184117020cb5e19e909b8e183c331b8f",
+    "SKILL.md": "7b6d6c1c81ca8f7d0bd46f8f3866944a76b83f4c4029c2a3d73cb8d02a796755",
+    "agents/openai.yaml": "80db1ee0b528282f007c594d01ed7b1008019c1bfddd4114f2d0a6d0c62f6c4c",
+    "references/catalog.json": "c23051e942daa2576f73af1358a32c602206a597b739de0a8f556e867d4a23a2",
+    "references/examples.md": "4f27e8f999c0e42ea659481dc48e53cdace885caf087bc998ead0d305c372006",
+    "references/provenance.md": "cd342b6361ce192f0171cd29644ae0624949ecd0a133517dda1446ba8ce90051",
+    "references/roles/causal-inference.md": "d2587707b7675452be7588bb6f7ada71d015e80db42026b0f5e857c90600c93c",
+    "references/roles/computational-modeling.md": "44181c3162896debd8a2a2dc56f4efeeedbcf19bfe2a60957a42da0d61d6f67a",
+    "references/roles/data-quality.md": "f0a6dc0734cbc2de374606dc25c8b8d021bd4c286227f53ae911eef6375f95eb",
+    "references/roles/domain-science.md": "42c8fd1e0a3f3440d9ae1e31f6e1bbbd473046f67ec626e4053c8086fd92e7bb",
+    "references/roles/engineering-feasibility.md": "50f049a15396e2c73c7b083291b190cad5e4ca0d4cfe9a010b82dbbdecf52f75",
+    "references/roles/ethics-governance.md": "4929c3b124e1c627e7c2d76c5fd2cd0049c73c7833280699cc5030deca00faa5",
+    "references/roles/evidence-review.md": "5c2d53f968d9c7de8d0f6ece657f7bdc4df3db3858a3c8fc490d9be5e3c18c16",
+    "references/roles/experimental-design.md": "2eef6d60ced954153d2963a678b55c07f5e480c4d881a991a215e8324ced8af3",
+    "references/roles/reproducibility.md": "bdd6022a3e1d3e45d728531ff6c17b396704db69b532849a6e02841c74864187",
+    "references/roles/research-strategy.md": "45a8168f7180e490306e6cc12c092dacdb15f8efb7f1b8ea1efa014225467601",
+    "references/roles/statistics.md": "46772fc7c4d5e1cfe882401b89d73cc8a3ac9cc960e4236da36612d85aff5d61",
+    "references/roles/translation-impact.md": "1ba2e7101ddeebcb9b41cb2c9366d244fd69de646452fdbd4363b0d95cd14b0e",
+    "references/roles.md": "c61a28561827a27a6dd6b50ab1d679bf00c96758556e74bb24a9a4e28ddaa975",
+    "scripts/mdt.py": "afcb1fb1c9e5a8f5dfab9b54130793290eaef372e1d0462b22573063fb626058"
+  }
+}
